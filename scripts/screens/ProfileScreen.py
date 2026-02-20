@@ -685,6 +685,12 @@ class ProfileScreen(Screens):
     def generate_column1(self, the_cat):
         """Generate the left column information"""
         output = ""
+
+        # ID
+        output += "ID: " + str(the_cat.ID)
+        # NEWLINE ----------
+        output += "\n"
+
         # SEX/GENDER
         if the_cat.genderalign is None or the_cat.genderalign == the_cat.gender:
             output += the_cat.get_gender_string()

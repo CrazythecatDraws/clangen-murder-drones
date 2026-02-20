@@ -494,10 +494,20 @@ class Cat:
             if par2species:
                 par_species.append(par2species)
 
+            if par_species == ['worker drone', 'disassembly drone']: 
+                self.species = "worker x disassembly drone hybrid"
+            else:
+                self.species = choices(species_list, weights=(1, 1, 1, 0, 0), k=1)[0]
+
+            if par_species == ['solver infected worker drone', 'disassembly drone']: 
+                self.species = "solver infected worker x disassembly drone hybrid"
+            else:
+                self.species = choices(species_list, weights=(1, 1, 1, 0, 0), k=1)[0]
+
             if not par_species:
                 print("[SPS] Warning - par_species none: species randomized")
                 self.species = choices(species_list, weights=weights, k=1)[0]
-            
+
             for s in par_species:
                 # check dom and rec tag
                 if any("dom_inh" in tag for tag in species_dict[s]):
