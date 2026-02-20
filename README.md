@@ -16,7 +16,7 @@ Mod creator: CrazyDraws
 
 ## Downloads
 ### Stable
-Stable versions can be downloaded here []()
+Stable versions can be downloaded [here](https://github.com/CrazythecatDraws/clangen-murder-drones/releases)
 
 ## Running from source
 > [!WARNING]
