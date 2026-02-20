@@ -1,24 +1,22 @@
-# clangen
+# Murder Drones Gen
 
-### [Discord Server](https://discord.gg/clangen) || [Official website](https://clangen.io) || [Itch.io Page](https://sablesteel.itch.io/clan-gen-fan-edit) 
+### [Link to challenge thread](https://discord.com/channels/1003759225522110524/1300907143356223528) || [Link to challenge doc](https://docs.google.com/document/d/13M90EVusf2FaT0-LLcrx-LaTHUeYhoim__hMMKE81bM/edit) || [SPS Framework](https://github.com/afellowcorn/SPS-Framework)
 
 ## Description
-Fan-edit of the warrior cat clangen game built using Python and Pygame.
+Fan-edit of the fan-edit of the warrior cats game using SPS Framework.
 
 ## Credits
 Original creator: just-some-cat.tumblr.com
 
 Fan-edit creator: SableSteel, and many others
 
+SPS creator: afellowacorn
+
+Mod creator: CrazyDraws
+
 ## Downloads
 ### Stable
-Stable versions can be downloaded directly from the [official ClanGen website](https://clangen.io/download)
-
-### Development
-**Note**: Development versions are automatic snapshots of current development efforts. They are _not_ stable, can crash and even corrupt your save files.
-Additionally, we do not provide tech support for development versions.
-
-Download at your own risk here: [ClanGen development download](https://clangen.io/download-development)
+Stable versions can be downloaded here []()
 
 ## Running from source
 > [!WARNING]
@@ -69,10 +67,3 @@ After that, ensure that you have the Python extension installed in Visual Studio
 Then, open the Command Palette (Ctrl+Shift+P) and search for `Python: Select Interpreter`. Select the virtual environment created by uv (it should mention a `.venv` somewhere).
 
 Finally, open the `main.py` file and click the play button in the top right corner to run the game.
-
-
-## Bug Reporting
-We have migrated to GitHub Issues for bug reporting and tracking. We no longer review bug reports from the retired Google Form.
-
-## Contributing
-If you'd like to contribute to Clangen, please read our [Contributing guide](https://github.com/ClanGenOfficial/clangen/blob/development/CONTRIBUTING.md).
