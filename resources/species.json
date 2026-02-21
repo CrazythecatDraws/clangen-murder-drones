@@ -1,18 +1,19 @@
 {
     "species": {
         "worker drone": [],
-        "disassembly drone": [],
+        "female disassembly drone": ["always_f"],
+        "male disassembly drone": ["always_m"],
         "solver infected worker drone": ["always_f"],
         "worker x disassembly drone hybrid": ["no_breed"],
         "solver infected worker x disassembly drone hybrid": ["always_f", "no_breed"]
     },
-    "ran_weights": [7, 4, 3, 1, 1],
+    "ran_weights": [7, 3, 3, 3, 1, 1],
     "in_weights": {
-        "worker drone": [7, 4, 3, 0, 0],
-        "disassembly drone": [7, 4, 3, 0, 0],
-        "solver infected worker drone": [7, 4, 3, 0, 0],
-        "worker x disassembly drone hybrid": [7, 4, 3, 0, 0],
-        "solver infected worker x disassembly drone hybrid": [7, 4, 3, 0, 0]
+        "worker drone": [7, 3, 3, 3, 0, 0],
+        "disassembly drone": [7, 3, 3, 3, 0, 0],
+        "solver infected worker drone": [7, 3, 3, 3, 0, 0],
+        "worker x disassembly drone hybrid": [7, 3, 3, 3, 0, 0],
+        "solver infected worker x disassembly drone hybrid": [7, 3, 3, 3, 0, 0]
     },
     "comment": [
         "look at the official documentation for a list of all species tags.",
