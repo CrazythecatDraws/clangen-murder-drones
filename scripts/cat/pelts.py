@@ -158,51 +158,91 @@ class Pelt:
 
     pelt_length = ["short", "medium", "long"]
     eye_colours = [
-        "YELLOW",
+        "ALICEBLUE",
+        "AMARANTH",
         "AMBER",
-        "HAZEL",
-        "PALEGREEN",
+        "AMETHYST",
         "GREEN",
-        "BLUE",
-        "DARKBLUE",
-        "GREY",
-        "CYAN",
-        "EMERALD",
-        "PALEBLUE",
-        "PALEYELLOW",
-        "GOLD",
-        "HEATHERBLUE",
-        "COPPER",
-        "SAGE",
-        "COBALT",
-        "SUNLITICE",
-        "GREENYELLOW",
+        "AQUA",
+        "AZURE",
+        "AZUREMIST",
+        "BABYBLUE",
+        "BANANAYELLOW",
+        "BEAUBLUE",
+        "BITTERSWEET",
+        "BLUEPURPLE",
+        "BLUSH",
+        "BOTTLEGREEN",
+        "BOYSENBERRY",
+        "BRIGHTLAVENDER",
+        "BRILLIANTROSE",
+        "BRINKPINK",
         "BRONZE",
-        "SILVER",
-        "ORANGE",
+        "BURNTSIENNA",
+        "BYZANTINE",
+        "BYZANTIUM",
+        "BURNTORANGE",
+        "CADMIUMORANGE",
+        "CADIUMYELLOW",
+        "CANARY",
+        "CARDINAL",
+        "CARMINE",
+        "CHERRYBLOSSOMPINK",
+        "CHESTNUT",
+        "MAXIMUMYELLOWRED",
+        "DEEPCARROTORANGE",
+        "DEEPCHESTNUT",
+        "DEEPFUCHSIA",
+        "EARTHYELLOW",
+        "FERN",
+        "FRENCHROSE",
+        "GHOSTWHITE",
+        "JASPER",
     ]
     yellow_eyes = [
-        "YELLOW",
+        "AMARANTH",
         "AMBER",
-        "PALEYELLOW",
-        "GOLD",
-        "COPPER",
-        "GREENYELLOW",
+        "BANANAYELLOW",
+        "BITTERSWEET",
+        "BLUSH",
+        "BOYSENBERRY",
+        "BRILLIANTROSE",
+        "BRINKPINK",
         "BRONZE",
-        "SILVER",
-        "ORANGE",
+        "BURNTSIENNA",
+        "BURNTORANGE",
+        "CADMIUMORANGE",
+        "CADIUMYELLOW",
+        "CANARY",
+        "CARDINAL",
+        "CARMINE",
+        "CHERRYBLOSSOMPINK",
+        "CHESTNUT",
+        "MAXIMUMYELLOWRED",
+        "DEEPCARROTORANGE",
+        "DEEPCHESTNUT",
+        "EARTHYELLOW",
+        "FRENCHROSE",
+        "JASPER",
     ]
     blue_eyes = [
-        "BLUE",
-        "DARKBLUE",
-        "CYAN",
-        "PALEBLUE",
-        "HEATHERBLUE",
-        "COBALT",
-        "SUNLITICE",
-        "GREY",
+        "ALICEBLUE",
+        "AMETHYST",
+        "AQUA",
+        "AZURE",
+        "AZUREMIST",
+        "BABYBLUE",
+        "BEAUBLUE",
+        "BRIGHTLAVENDER",
+        "BYZANTINE",
+        "BYZANTIUM",
+        "DEEPFUCHSIA",
     ]
-    green_eyes = ["PALEGREEN", "GREEN", "EMERALD", "SAGE", "HAZEL"]
+    green_eyes = [
+        "GREEN",
+        "BOTTLEGREEN",
+        "FERN",
+    ]
 
     # bite scars by @wood pank on discord
 
@@ -1191,9 +1231,9 @@ class Pelt:
 
         # Eye Color Convert Stuff
         if self.eye_colour == "BLUE2":
-            self.eye_colour = "COBALT"
+            self.eye_colour = "AZURE"
         if self.eye_colour2 == "BLUE2":
-            self.eye_colour2 = "COBALT"
+            self.eye_colour2 = "AZURE"
 
         if self.eye_colour in ("BLUEYELLOW", "BLUEGREEN"):
             if self.eye_colour == "BLUEYELLOW":
